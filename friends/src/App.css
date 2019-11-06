@@ -1,0 +1,64 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    margin: 3rem auto;
+    padding: 3rem;
+    background-color: #546A7B;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    border-radius: .8rem;
+    font-family: 'Dosis', sans-serif;
+}
+
+.nav {
+    padding: .5rem  1rem;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+}
+
+.friendCard {
+    color: #153B50;
+    background-color: #E8E9F3;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    border-radius: .8rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.card {
+    border: .5px solid black;
+    padding: 1rem;
+    border-radius: .8rem;
+    margin: 1rem 0;
+}
+
+.addTitle {
+    color: whitesmoke;
+}
+
+ a {
+    color: whitesmoke;
+     text-decoration: none;
+     margin: 0 .8rem;
+}
+
+ input {
+     padding: .5rem;
+     border-radius: .3rem;
+     margin: .2rem .5rem;
+     box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+     -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+ }
+
+ button {
+     padding: .5rem;
+     border-radius: .3rem;
+     color: whitesmoke;
+     background-color: #0D1F2D;
+     box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+     -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+ }
+
