@@ -7,8 +7,8 @@ function Nav() {
     const signedIn = getToken();
 
     return (
-        <nav>
-            <Link to="/login">Login</Link>
+        <nav className="nav">
+            {!signedIn && <Link to="/login">Login</Link>}
             {signedIn && <Link to={"/friends-list"}>Friends</Link>}
             {signedIn && <Link to={"/add-friend"}>Add Friend</Link>}
             {signedIn && <Link to={"/logout"}>Log Out</Link>}

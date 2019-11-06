@@ -3,10 +3,10 @@ import React from 'react';
 function Friends(props) {
     console.log(props);
     return (
-        <div>
-            <h1>Name - {props.friend.name}</h1>
-            <p>Age - {props.friend.age}</p>
-            <p>Email - {props.friend.email}</p>
+        <div className="card">
+            <p><b>Name - </b>{props.friend.name}</p>
+            <p><b>Age - </b>{props.friend.age}</p>
+            <p><b>Email - </b>{props.friend.email}</p>
         </div>
     )
 }

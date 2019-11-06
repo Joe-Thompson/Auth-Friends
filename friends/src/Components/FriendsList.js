@@ -19,8 +19,8 @@ function FriendsList() {
 
 console.log(friends);
     return (
-        <div>
-            <h1>hey you guys</h1>
+        <div className="friendCard">
+            <h1>My Friends</h1>
             {friends.map((item, index) => {
                return <Friends key={index} friend={item} />
             })}

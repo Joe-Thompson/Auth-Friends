@@ -36,7 +36,7 @@ function AddFriend(props) {
         <div>
             <form onSubmit={submitHandler}>
                 {error && <div className="error">{error}</div>}
-                <h3>Add New Friend</h3>
+                <h1 className="addTitle">Add New Friend</h1>
                 <input type="text" name="name" placeholder="Name" value={friend.name} onChange={changeHandler} />
                 <input type="number" name="age" placeholder="Age" value={friend.age} onChange={changeHandler} />
                 <input type="email" name="email" placeholder="Email" value={friend.email} onChange={changeHandler} />
